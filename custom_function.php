@@ -17,3 +17,16 @@ function calculate(){
 }
 
 init();
+
+// parameters
+function greetings($message){
+    echo "<br>".$message;
+}
+greetings("hello I used a parameter");
+
+
+function add($num1, $num2){
+    echo "<br>".$num1+$num2;
+}
+add(12, 19)
+?>
